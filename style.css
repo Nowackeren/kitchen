@@ -5,6 +5,17 @@
 }
 
 .hero {
-width: 100vw;
-height: 90vh;
+    width: 100vw;
+    height: 90vh;
+}
+main{
+    position: relative;
+}
+.herotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 15px black;
 }
