@@ -1,97 +1,116 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
+    <!-- Metadata til søgemaskiners robotter, indstiller indhold til "noindex" -->
     <meta name="robots" content="noindex">
+    
+    <!-- Link til Bootstrap CSS-frameworket -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Tegnsætning og viewport-indstillinger -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link til brugerdefineret stylesheet -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Titel på siden -->
     <title>Køkken</title>
-   
 </head>
 <body>
 <header>
+    <!-- Navigationsbjælke ved hjælp af Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="index.html"><img class="logo" src="/billeder/Kitchen-Logo.png" alt=""></a>
+        <a href="index.html"><img class="logo" src="/billeder/Kitchen-Logo.png" alt=""></a>
         <a class="navbar-brand" href="index.html">Inspiration til køkken</a>
+        
+        <!-- Knap til responsiv navigation -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      <div class="margin">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="produktkategori.html">Produktkategori <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="omos.html">Om os</a>
-            </li>
-          </ul>
+        
+        <!-- Navigationslinks -->
+        <div class="margin">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produktkategori.html">Produktkategori <span class="sr-only">(nuværende)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="omos.html">Om os</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-      </nav>
+    </nav>
 </header>  
+
 <main class="text-center">
-  <div class="herotext">
-   <h1>
-      Velkommen til Kitchen A/S
-    </h1>
-     <a href="#cards"><button  type="button"  class="btn btn-dark">Hvad kan vi hjælpe med?</button></a>
-  </div>
-  <img class="hero" src="billeder/jason-briscoe-GliaHAJ3_5A-unsplash.jpg" alt=""> 
+    <!-- Hero-sektion med en velkomstbesked og en call-to-action-knap -->
+    <div class="herotext">
+        <h1>
+            Velkommen til Kitchen A/S
+        </h1>
+        <a href="#cards"><button type="button" class="btn btn-dark">Hvad kan vi hjælpe med?</button></a>
+    </div>
+    <img class="hero" src="billeder/jason-briscoe-GliaHAJ3_5A-unsplash.jpg" alt=""> 
 </main>
 
 <div id="cards" class="cards">
-  <h2 class="text-center">Find inspiration til dit hjem</h2>
-  <div class="container-fluid mt-3">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-6 col-lg-4 bg-light text-black">
-          <img class="grid_1" src="billeder/sidekix-media-I_QC1JICzA0-unsplash.jpg" alt="">
-          <h3>Arabisk køkken</h3>
-          <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
+    <!-- Sektion med kort, der viser inspirationskategorier -->
+    <h2 class="text-center">Find inspiration til dit hjem</h2>
+    <div class="container-fluid mt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Kort 1: Arabisk køkken -->
+                <div class="col-sm-3 col-md-6 col-lg-4 bg-light text-black">
+                    <img class="grid_1" src="billeder/sidekix-media-I_QC1JICzA0-unsplash.jpg" alt="">
+                    <h3>Arabisk køkken</h3>
+                    <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
+                </div>
+                
+                <!-- Kort 2: Amerikansk køkken -->
+                <div class="col-sm-9 col-md-6 col-lg-8 bg-light text-black">
+                    <img class="grid_2" src="billeder/sidekix-media-UDDULE_eIBY-unsplash.jpg" alt="">
+                    <h3>Amerikansk køkken</h3>
+                    <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
+                </div>
+                
+                <!-- Kort 3: Asiatisk køkken -->
+                <div class="col-sm-9 col-md-6 col-lg-8 bg-light text-black">
+                    <img class="grid_1" src="billeder/sven-brandsma-3hEGHI4b4gg-unsplash.jpg" alt="">
+                    <h3>Asiatisk køkken</h3>
+                    <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
+                </div>
+                
+                <!-- Kort 4: Australsk køkken -->
+                <div class="col-sm-3 col-md-6 col-lg-4 bg-light text-black">
+                    <img class="grid_2" src="billeder/christian-mackie-cc0Gg3BegjE-unsplash.jpg" alt="">
+                    <h3>Australisk køkken</h3>
+                    <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-9 col-md-6 col-lg-8 bg-light text-black">
-          <img class="grid_2" src="billeder/sidekix-media-UDDULE_eIBY-unsplash.jpg" alt="">
-          <h3>Amerikansk køkken</h3>
-          <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
-          
-        </div>
-        <div class="col-sm-9 col-md-6 col-lg-8 bg-light text-black">
-          <img class="grid_1" src="billeder/sven-brandsma-3hEGHI4b4gg-unsplash.jpg" alt="">
-          <h3>Asiatisk køkken</h3>
-          <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
-        </div>
-        <div class="col-sm-3 col-md-6 col-lg-4 bg-light text-black">
-          <img class="grid_2" src="billeder/christian-mackie-cc0Gg3BegjE-unsplash.jpg" alt="">
-          <h3>Australisk køkken</h3>
-          <p>Når du skal have nyt køkken, kan du finde meget inspiration i at høre, hvad andre har gjort, og deres overvejelser. Vi har samlet en række kundehistorier til dig, der går i køkkentanker.</p>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Tilmeld dig vores nyhedsbrev</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
+    <!-- Footer-sektion med en formular til tilmelding af nyhedsbrev -->
+    <div class="container p-4 pb-0">
+        <!-- Sektion for nyhedsbrevsformular -->
+        <section class="">
+            <form action="">
+                <!-- Grid-række for formular-elementer -->
+                <div class="row d-flex justify-content-center">
+                    <!-- Kolonne for tekst -->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Tilmeld dig vores nyhedsbrev</strong>
+                        </p>
+                    </div>
+                    <!-- Kolonne for e-mail-input -->
+                    <div class="col-md-5 col-12">
+                        <div class="form-outline form-white mb-4">
               <input type="email" id="form5Example29" class="form-control" />
               <label class="form-label" for="form5Example29">E-mail</label>
             </div>
